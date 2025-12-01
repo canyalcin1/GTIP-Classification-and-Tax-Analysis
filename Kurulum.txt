@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onedir --console --name "GTIP_Asistani" --clean --collect-all gradio --collect-all gradio_client --collect-all safehttpx --collect-all groovy --hidden-import=openpyxl --hidden-import=pdf2image --add-data "poppler/Library/bin;poppler_bin" Application.py

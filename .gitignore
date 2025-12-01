@@ -1,0 +1,28 @@
+# Python gereksizleri
+__pycache__/
+*.pyc
+
+# Sanal Ortam (Github'a yüklenmez, boyutu şişirir)
+env/
+venv/
+.venv/
+
+# PyInstaller Çıktıları (Exe ve build dosyaları yüklenmez)
+build/
+dist/
+*.spec
+
+# Poppler ve büyük dosyalar (Github limiti 100MB'dır)
+poppler/
+poppler_bin/
+
+# Veritabanı ve Loglar (Verilerini gizli tutmak istersen)
+#cases.jsonl
+#vergi_listesi.jsonl
+#gecmis_taramalar/
+*.log
+
+# AYARLAR VE GİZLİLİK (API KEY GİTMESİN!)
+config.json
+vergi_meta.json
+vergi_listesi.jsonl
