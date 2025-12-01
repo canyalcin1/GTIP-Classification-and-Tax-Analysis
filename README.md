@@ -74,7 +74,9 @@ pyinstaller --noconfirm --onedir --console --name "GTIP_Asistani" --clean \
  --hidden-import=pdf2image \
  --add-data "poppler/Library/bin;poppler_bin" \
  Application.py
-📂 Proje Yapısı
+ ```
+
+## 📂 Proje Yapısı
 GTIP-Asistani/
 ├── Application.py       # Ana uygulama dosyası
 ├── cases.jsonl          # Sınıflandırılmış emsal veritabanı
@@ -82,7 +84,9 @@ GTIP-Asistani/
 ├── config.json          # API anahtarı ve model ayarları
 ├── poppler/             # PDF işleme motoru
 └── gecmis_taramalar/    # Log dosyaları
-🤝 Katkıda Bulunma
+
+
+## 🤝 Katkıda Bulunma
 Bu depoyu Fork'layın.
 
 Yeni bir özellik dalı (feature branch) oluşturun (git checkout -b yeni-ozellik).
@@ -93,7 +97,7 @@ Dalınızı Push edin (git push origin yeni-ozellik).
 
 Bir Pull Request oluşturun.
 
-📝 Lisans
+## 📝 Lisans
 Bu proje MIT lisansı ile lisanslanmıştır.
 
 Geliştirici: [Bekir Can Yalçın]
