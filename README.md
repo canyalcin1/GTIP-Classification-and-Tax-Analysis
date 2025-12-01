@@ -74,3 +74,33 @@ pyinstaller --noconfirm --onedir --console --name "GTIP_Asistani" --clean \
  --hidden-import=pdf2image \
  --add-data "poppler/Library/bin;poppler_bin" \
  Application.py
+📂 Proje Yapısı
+GTIP-Asistani/
+├── Application.py       # Ana uygulama dosyası
+├── cases.jsonl          # Sınıflandırılmış emsal veritabanı
+├── vergi_listesi.jsonl  # Gümrük vergi listesi (Cache)
+├── config.json          # API anahtarı ve model ayarları
+├── poppler/             # PDF işleme motoru
+└── gecmis_taramalar/    # Log dosyaları
+🤝 Katkıda Bulunma
+Bu depoyu Fork'layın.
+
+Yeni bir özellik dalı (feature branch) oluşturun (git checkout -b yeni-ozellik).
+
+Değişikliklerinizi Commit edin (git commit -m 'Yeni özellik eklendi').
+
+Dalınızı Push edin (git push origin yeni-ozellik).
+
+Bir Pull Request oluşturun.
+
+📝 Lisans
+Bu proje MIT lisansı ile lisanslanmıştır.
+
+Geliştirici: [Bekir Can Yalçın]
+
+
+### Ekstra Tavsiye: `requirements.txt` Oluşturma
+Bu README dosyasında `pip install -r requirements.txt` komutu geçiyor. Bunu oluşturmak için terminale şunu yazmayı unutma:
+
+```bash
+pip freeze > requirements.txt
