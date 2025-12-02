@@ -4,7 +4,7 @@
 
 Bu proje, kimyasal ürünlerin ve hammaddelerin **Gümrük Tarife İstatistik Pozisyonu (GTIP)** sınıflandırmasını otomatikleştirmek, gümrük vergilerini analiz etmek ve geçmiş emsalleri yönetmek için geliştirilmiş kapsamlı bir yapay zeka asistanıdır.
 
-**Google Gemini 1.5** modellerini kullanarak SDS (Güvenlik Bilgi Formu) ve etiket görsellerini analiz eder, mevzuata uygun GTIP önerileri sunar.
+**Google Gemini Pro/Flash** modellerini kullanarak SDS (Güvenlik Bilgi Formu) ve etiket görsellerini analiz eder, mevzuata uygun GTIP önerileri sunar.
 
 ## 🚀 Özellikler
 
